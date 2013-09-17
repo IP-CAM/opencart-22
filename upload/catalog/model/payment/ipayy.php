@@ -12,7 +12,7 @@ class ModelPaymentIpayy extends Model {
 		
 		if (!$this->config->get('ipayy_status')) {
 			$status = false;
-		} elseif ($convertedTotal > $this->config->get('ipayy_total')) {
+		} elseif ($convertedTotal > $this->config->get('ipayy_total') || $convertedTotal < 1) {
 			$status = false;
 		} else {
 			$status = true;
