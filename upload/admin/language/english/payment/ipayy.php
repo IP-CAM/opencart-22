@@ -16,7 +16,7 @@ $_['entry_application_id']			= 'Application Id:';
 $_['entry_application_help']			= 'Login to your merchant account at <a href="https://portal.ipayy.com">https://portal.ipayy.com</a> to get your application id';
 $_['entry_item_display']			= 'Display Item Name as:';
 $_['entry_item_help']			= 'What should be displayed to customer as item name when the customer goes to payment page.';
-$_['entry_item_options']			= ["Store Name", "Item Name", "Subdomain Name", "Domain Name", "Custom"];
+$_['entry_item_options']			= array("Store Name", "Item Name", "Subdomain Name", "Domain Name", "Custom");
 $_['entry_debug']					 = 'Debug Mode:<br/><span class="help">Logs additional information to the system log.</span>';
 $_['entry_total']                    = 'Max Total:<br /><span class="help">The checkout total the order must not be more than specified amount.</span>';
 $_['entry_completed_status']         = 'Completed Status:';
